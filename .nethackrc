@@ -1,0 +1,23 @@
+OPTIONS=color,lit_corridor,showexp,boulder:0,pickup_types:$"?!/=
+OPTIONS=pickup_thrown
+OPTIONS=pickup_burden:Burdened
+OPTIONS=fruit:potato. You die...,msg_window:reverse
+
+OPTIONS=statushilites:10 # will hilite changes in status for 10 turns
+
+# Specify multiple cutoffs for all ability scores.
+OPTIONS=hilite_status:characteristics/<5/red/>6/orange/>8/brown/>11/yellow/>13/green/>16/cyan/>18/lightblue
+
+# Hilight multiple encumbrance statuses.
+OPTIONS=hilite_status:carrying-capacity/burdened/yellow/stressed/orange
+
+# Percentage cutoffs for hitpoints.
+OPTIONS=hilite_status:hitpoints/100%/brightgreen
+OPTIONS=hilite_status:hitpoints/<100%/green
+OPTIONS=hilite_status:hitpoints/<60%/yellow
+OPTIONS=hilite_status:hitpoints/<40%/red
+
+OPTIONS=windowtype:curses
+OPTIONS=perm_invent,hitpointbar
+OPTIONS=time
+
